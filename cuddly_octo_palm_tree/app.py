@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+cuddly_octo_palm_tree API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="cuddly_octo_palm_tree",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://cuddly_octo_palm_tree.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "brainwarr",
+        "url": "http://cuddly_octo_palm_tree.com/contact/",
+        "email": "brainwarr@cuddly_octo_palm_tree.com",
     },
     license_info={
         "name": "The Unlicense",
